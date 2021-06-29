@@ -3,6 +3,7 @@ Learning Log + Scratch pad for AWS Machine Learning Foundation Udacity
 
 12k on Foundation
 425 possible Nano Degree for top performers! 
+https://aws.amazon.com/blogs/machine-learning/ 
 
 ## Course Overview
 1. Lession 1: Introduction to course. 
@@ -75,3 +76,33 @@ Common workflow.
 These steps are iterative. In practice, that means that at each step along the process, you review how the process is going. Are things operating as you expected? If not, go back and revisit your current step or previous steps to try and identify the breakdown.
 
 #### Define the Problem 
+
+1. Define a very specific task 
+Has to be a keyed in task for example, would offering a service at price point x increase sales rather than broad how do I increase sales. 
+
+Examples:
+“Does adding a $1.00 charge for sprinkles on a hot fudge sundae increase the sales of hot fudge sundaes?”
+“Does adding a $0.50 charge for organic flavors in your snow cone increase the sales of snow cones?”
+
+2. Identify the machine learning task we might use to solve this problem.
+
+All models take data as input, but output varies on task they are designed to solve. 
+Often we used the kind of data required to train a model as part of defining a machine learning task.
+
+Supervised + Unsupervised. 
+
+Predicting the number of snow cones sold based on the temperatures is an example of supervised learning. Since we have both temperature and numbers of snowcone sold. Already contains the solution. 
+Labeling a picture with a object in it would be unsupervised learning. Microgenres in books would be another example. 
+
+Clustering -  Unsupervised learning task that helps to determine if there are any naturally occurring groupings in the data.
+
+Supervised learning - Categorical label (Classification) - Continous Label (Regression) 
+Unsupervised Learning - Clustering.
+
+
+
+
+
+
+
+
