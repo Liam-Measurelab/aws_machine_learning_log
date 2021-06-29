@@ -28,3 +28,11 @@ Learning Log + Scratch pad for AWS Machine Learning Foundation Udacity
 3. Worked through welcome to AWS Machine Learning Lesson 1.
 4. Watch the youtube stream for the course. 
 5. Welcoem to Machine Learning - Lesson 2 Start
+
+### Lesson 2 
+What is Machine Learning 
+Steps in Machine Learning
+Real world examples
+
+
+
