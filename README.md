@@ -111,4 +111,16 @@ Unsupervised Learning - Clustering.
 
 Impute is a common term referring to different statistical tools which can be used to calculate missing values from your dataset.
 
+#### Step 3: Model Training 
 
+1. Split dataset - 80% Training Dataset 20% Test set (Model evaluation stage) Validation Data
+2. Iteratively update model parameters to minimize some loss function - Setting to change how the model behaves biases - Regression changes the shape of the line. Loss function is the model's distance from the score. Seek to minimise loss function. 
+- Feed the training data into the model.
+- Compute the loss function on the results.
+- Update the model parameters in a direction that reduces loss.
+- You continue to cycle through these steps until you reach a predefined stop condition. 
+
+1. Practitioners often use machine learning frameworks that already have working implementations of models and model training algorithms. You could implement these from scratch, but you probably won't need to do so unless you’re developing new models or algorithms.
+2. Practitioners use a process called model selection to determine which model or models to use. The list of established models is constantly growing, and even seasoned machine learning practitioners may try many different types of models while solving a problem with machine learning.
+3. Hyperparameters are settings on the model which are not changed during training but can affect how quickly or how reliably the model trains, such as the number of clusters the model should identify.
+4. Be prepared to iterate.
