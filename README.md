@@ -141,3 +141,26 @@ Deep learning models
 Extremely popular and powerful, deep learning is a modern approach based around a conceptual model of how the human brain functions. The model (also called a neural network) is composed of collections of neurons (very simple computational units) connected together by weights (mathematical representations of how much information to allow to flow from one neuron to the next). The process of training involves finding values for each weight.
 
 Various neural network structures have been determined for modeling different kinds of problems or processing different kinds of data.
+
+#### Step 4: Model Evaluation (How well the model works) 
+
+https://aws.amazon.com/blogs/machine-learning/making-accurate-energy-consumption-predictions-with-amazon-forecast/
+
+Not a one and done process. 
+
+Model accuracy - How often your model is correct - Classification. 
+
+Metrics
+Recall: Fraction of relevant instances that were retrieved.
+Precision: Fraction of relevant instances among the retrieved instances
+Log Loss: Seeks to calculate how uncertain your model is about the predictions it is generating.
+Mean Absolute Error
+Hinge Loss: How close a binary classification is with notion of a margin.
+R2: proportion of the variance for a dependent variable, actual and observed probability distribution.
+KL Divergence: difference between an actual and observed probability distribution.
+F1 Score: F1 score conveys the balance between the precision and the recall. 
+Quantile Loss:  A quantile is the value below which a fraction of observations in a group falls. For example, a prediction for quantile 0.9 should over-predict 90% of the times.
+
+
+
+
