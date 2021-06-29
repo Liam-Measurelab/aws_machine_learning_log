@@ -172,6 +172,33 @@ Always be monitoring! Iterative Process
 #### Case Study 1 
 Supervised learning
 Using machine learning to predict housing prices in a neighborhood based on lot size and number of bedrooms
+
+1. Step One: Define the Problem
+Can we estimate the price of a house based on lot size or the number of bedrooms?
+
+2. Step Two: Building a Dataset
+- Data collection: You collect numerous examples of homes sold in your neighborhood within the past year, and pay a real estate appraiser to appraise the homes whose selling price is not known.
+- Data exploration: You confirm that all of your data is numerical because most machine learning models operate on sequences of numbers. If there is textual data, you need to transform it into numbers.
+- Data cleaning: Look for things such as missing information or outliers, such as the 10-room mansion. Several techniques can be used to handle outliers, but you can also just remove those from your dataset.
+- Data visualization: You can plot home values against each of your input variables to look for trends in your data.
+
+3. Step Three: Model Training
+Prior to actually training your model, you need to split your data. The standard practice is to put 80% of your dataset into a training dataset and 20% into a test dataset.
+
+Linear model selection
+As you see in the preceding chart, when lot size increases, home values increase too. This relationship is simple enough that a linear model can be used to represent this relationship.
+
+A linear model across a single input variable can be represented as a line. It becomes a plane for two variables, and then a hyperplane for more than two variables. The intuition, as a line with a constant slope, doesn't change.
+
+4. Step Four: Evaluation
+One of the most common evaluation metrics in a regression scenario is called root mean square or RMS. The math is beyond the scope of this lesson, but RMS can be thought of roughly as the "average error” across your test dataset, so you want this value to be low.
+
+- Interpreting Results
+- In general, as your model improves, you see a better RMS result. You may still not be confident about whether the specific value you’ve computed is good or bad.
+
+5. Step Five: Inference: Try out your model
+Now you are ready to put your model into action. As you can see in the following image, this means seeing how well it predicts with new data not seen during model training.
+
 #### Case Study 2 
 Unsupervised learning
 Using machine learning to isolate micro-genres of books by analyzing the wording on the back cover description.
