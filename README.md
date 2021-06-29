@@ -202,6 +202,39 @@ Now you are ready to put your model into action. As you can see in the following
 #### Case Study 2 
 Unsupervised learning
 Using machine learning to isolate micro-genres of books by analyzing the wording on the back cover description.
+
+1. Step One: Define the Problem
+
+Find clusters of similar books based on the presence of common words in the book descriptions.
+
+2. Step Two: Build your Dataset
+To test the hypothesis, you gather book description text for 800 romance books published in the current year.
+
+- Data exploration, cleaning and preprocessing
+For this project, you believe capitalization and verb tense will not matter, and therefore you remove capitals and convert all verbs to the same tense using a Python library built for processing human language. You also remove punctuation and words you don’t think have useful meaning, like 'a' and 'the'. The machine learning community refers to these words as stop words.
+
+Before you can train the model, you need to do some data preprocessing, called data vectorization, to convert text into numbers.
+
+You transform this book description text into what is called a bag of words representation
+
+3. Step Three: Train the Model
+Now you are ready to train your model.
+
+You pick a common cluster-finding model called k-means. In this model, you can change a model parameter, k, to be equal to how many clusters the model will try to find in your dataset.
+
+Your data is unlabeled: you don't how many microgenres might exist. So you train your model multiple times using different values for k each time.
+
+4. Step Four: Model Evaluation
+In machine learning, numerous statistical metrics or methods are available to evaluate a model. In this use case, the silhouette coefficient is a good choice. This metric describes how well your data was clustered by the model. 
+
+Often, machine learning practitioners do a manual evaluation of the model's findings.
+
+You find one cluster that contains a large collection of books you can categorize as “paranormal teen romance.” This trend is known in your industry, and therefore you feel somewhat confident in your machine learning approach. You don’t know if every cluster is going to be as cohesive as this, but you decide to use this model to see if you can find anything interesting about which to write an article.
+
+Step Five: Inference (Use the Model)
+
+Spot checking clusters, to see any other self-consistent clusters.
+
 #### Case Study 3 
 Deep neural network
 You will see how it can be used to analyze raw images from lab video footage from security cameras, trying to detect chemical spills.
