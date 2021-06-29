@@ -151,15 +151,15 @@ Not a one and done process.
 Model accuracy - How often your model is correct - Classification. 
 
 Metrics
-Recall: Fraction of relevant instances that were retrieved.
-Precision: Fraction of relevant instances among the retrieved instances
-Log Loss: Seeks to calculate how uncertain your model is about the predictions it is generating.
-Mean Absolute Error
-Hinge Loss: How close a binary classification is with notion of a margin.
-R2: proportion of the variance for a dependent variable, actual and observed probability distribution.
-KL Divergence: difference between an actual and observed probability distribution.
-F1 Score: F1 score conveys the balance between the precision and the recall. 
-Quantile Loss:  A quantile is the value below which a fraction of observations in a group falls. For example, a prediction for quantile 0.9 should over-predict 90% of the times.
+- Recall: Fraction of relevant instances that were retrieved.
+- Precision: Fraction of relevant instances among the retrieved instances
+- Log Loss: Seeks to calculate how uncertain your model is about the predictions it is generating.
+- Mean Absolute Error:  Absolute error refers to the magnitude of difference between the prediction of an observation and the true value of that observation.
+- Hinge Loss: How close a binary classification is with notion of a margin.
+- R2: proportion of the variance for a dependent variable, actual and observed probability distribution.
+- KL Divergence: difference between an actual and observed probability distribution.
+- F1 Score: F1 score conveys the balance between the precision and the recall. 
+- Quantile Loss:  A quantile is the value below which a fraction of observations in a group falls. For example, a prediction for quantile 0.9 should over-predict 90% of the times.
 
 
 
