@@ -161,6 +161,10 @@ Metrics
 - F1 Score: F1 score conveys the balance between the precision and the recall. 
 - Quantile Loss:  A quantile is the value below which a fraction of observations in a group falls. For example, a prediction for quantile 0.9 should over-predict 90% of the times.
 
+#### Step 5: Model Inference
 
+Congratulations! You're ready to deploy your model.
 
+Once you have trained your model, have evaluated its effectiveness, and are satisfied with the results, you're ready to generate predictions on real-world problems using unseen data in the field. In machine learning, this process is often called inference.
 
+Always be monitoring! Iterative Process
