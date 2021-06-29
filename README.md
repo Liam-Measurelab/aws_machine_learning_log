@@ -75,7 +75,7 @@ Common workflow.
 
 These steps are iterative. In practice, that means that at each step along the process, you review how the process is going. Are things operating as you expected? If not, go back and revisit your current step or previous steps to try and identify the breakdown.
 
-#### Define the Problem 
+#### Step 1: Define the Problem 
 
 1. Define a very specific task 
 Has to be a keyed in task for example, would offering a service at price point x increase sales rather than broad how do I increase sales. 
@@ -99,7 +99,7 @@ Clustering -  Unsupervised learning task that helps to determine if there are an
 Supervised learning - Categorical label (Classification) - Continous Label (Regression) 
 Unsupervised Learning - Clustering.
 
-
+#### Step 2: Build a Dataset
 
 
 
