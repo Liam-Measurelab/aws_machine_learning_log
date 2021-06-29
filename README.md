@@ -30,9 +30,19 @@ Learning Log + Scratch pad for AWS Machine Learning Foundation Udacity
 5. Welcoem to Machine Learning - Lesson 2 Start
 
 ### Lesson 2 
-What is Machine Learning 
-Steps in Machine Learning
-Real world examples
-
+What is Machine Learning  
+Steps in Machine Learning  
+Real world examples  
+ 
+ML is a type of AI, automatically learn without being programmed, patterns and predictions
+supervised learning - every training sample has a matching label or output label - predictions - sale price of house or image classification. 
+unsupervised no labels. 
+Inspect data to find patterns then humans use patterns to make insights. 
+Reinforcement learning in what actions to take in situations to get max rewards. (Like a pet) 
+ 
+Analyse problems and programs solutions - time taking and might be undoable. Because of edge cases. 
+Machine learning - Models - Model training algorithm - predict outcomes that aren't partt of the data set used to train it, pattern matching that the problem solver would traditionally do. Flexiblity of the model is the key here. 
+ 
+ 
 
 
