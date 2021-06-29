@@ -34,6 +34,7 @@ What is Machine Learning
 Steps in Machine Learning  
 Real world examples  
  
+#### What is Machine Learning
 ML is a type of AI, automatically learn without being programmed, patterns and predictions
 supervised learning - every training sample has a matching label or output label - predictions - sale price of house or image classification. 
 unsupervised no labels. 
@@ -42,7 +43,23 @@ Reinforcement learning in what actions to take in situations to get max rewards.
  
 Analyse problems and programs solutions - time taking and might be undoable. Because of edge cases. 
 Machine learning - Models - Model training algorithm - predict outcomes that aren't partt of the data set used to train it, pattern matching that the problem solver would traditionally do. Flexiblity of the model is the key here. 
- 
+
+#### Components of Machine Learning
+
+3 Primary components 
+Machine Learning Model, Model training alghorithm, Model inference Algorithm.
+Clay -> Raw -> Fired. 
+Clay - Can be modelled into many different forms and purposes. 
+Block of code or framework. For Example Linear regression model example. 
+People attenting college based on cost of application eg. 
+
+Raw Teapot - Inspect and analyse Clay and look at what to change to make it more like a teapot. gentle changes to model parameters to achieve goals. 
+Determine what changes need to be made. 
+Processes data and compares against a goal and makes small changes. Repeated step. 
+
+Teapot - Ready for the real world. 
+Generate preditions. 
+Model inference 
  
 
 
