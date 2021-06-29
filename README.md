@@ -168,3 +168,16 @@ Congratulations! You're ready to deploy your model.
 Once you have trained your model, have evaluated its effectiveness, and are satisfied with the results, you're ready to generate predictions on real-world problems using unseen data in the field. In machine learning, this process is often called inference.
 
 Always be monitoring! Iterative Process
+
+#### Case Study 1 
+Supervised learning
+Using machine learning to predict housing prices in a neighborhood based on lot size and number of bedrooms
+#### Case Study 2 
+Unsupervised learning
+Using machine learning to isolate micro-genres of books by analyzing the wording on the back cover description.
+#### Case Study 3 
+Deep neural network
+You will see how it can be used to analyze raw images from lab video footage from security cameras, trying to detect chemical spills.
+
+
+
