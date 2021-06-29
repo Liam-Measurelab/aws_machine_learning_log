@@ -101,8 +101,14 @@ Unsupervised Learning - Clustering.
 
 #### Step 2: Build a Dataset
 
+1. Data collection - Does the data you've collected match the machine learning task and problem you have defined?
+2. Data inspection
+- Outliers
+- Missing or incomplete values
+- Data that needs to be transformed or preprocessed so it's in the correct format to be used by your model
+4. Summary Statistics - Insight into the scope, scale, and shape of the dataset
+5. Data Visualization - You can use data visualization to see outliers and trends in your data and to help stakeholders understand your data.
 
-
-
+Impute is a common term referring to different statistical tools which can be used to calculate missing values from your dataset.
 
 
