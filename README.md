@@ -63,3 +63,15 @@ Model inference
  
 #### Completed Quiz
 
+### Introduction to the Five Machine Learning Steps
+Common workflow.
+
+1. Define the Problem 
+2. Build the Dataset 
+3. Train the Model
+4. Evaluate the Modle
+5. Use the Model 
+
+These steps are iterative. In practice, that means that at each step along the process, you review how the process is going. Are things operating as you expected? If not, go back and revisit your current step or previous steps to try and identify the breakdown.
+
+#### Define the Problem 
