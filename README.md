@@ -239,5 +239,36 @@ Spot checking clusters, to see any other self-consistent clusters.
 Deep neural network
 You will see how it can be used to analyze raw images from lab video footage from security cameras, trying to detect chemical spills.
 
+1. Step One: Defining the Problem:
+Automatically detect spills using the plant's surveillance system
 
+Model Training 
 
+This task is a supervised classification task, as shown in the following image. As shown in the image above, your goal will be to predict if each image belongs to one of the following classes:
+
+Contains spill
+Does not contain spill
+
+2. Step Two: Building a Dataset
+
+- Collecting
+Using historical data, as well as safely staged spills, you quickly build a collection of images that contain both spills and non-spills in multiple lighting conditions and environments.
+- Exploring and cleaning
+You go through all the photos to ensure the spill is clearly in the shot. There are Python tools and other techniques available to improve image quality, which you can use later if you determine a need to iterate.
+- Data vectorization (converting to numbers)
+Many models require numerical data, so all your image data needs to be transformed into a numerical format. Python tools can help you do this automatically.
+In the following image, you can see how each pixel in the image on the left can be represented in the image on the right by a number between 0 and 1, with 0 being completely black and 1 being completely white.
+
+- Split the data
+You split your image data into a training dataset and a test dataset.
+
+3. Step Three: Model Training
+Deep neural network models are structured to learn the features on top of the underlying pixels so you don’t have to learn them. 
+
+4. Step Four: Model Evaluation
+
+Precision and Recall will be effective. You can think of precision as answering the question, "Of all predictions of a spill, how many were right?" and recall as answering the question, "Of all actual spills, how many did we detect?"
+
+5. Step Five: Model Inference
+
+The model can be deployed on a system that enables you to run machine learning workloads such as AWS Panorama.
